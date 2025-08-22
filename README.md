@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/BotzFandirr/Baileys"><img src="https://img.shields.io/github/stars/ErlanggaaXzzz/Baileys?style=for-the-badge" alt="Stars"></a>
+  <a href="https://github.com/BotzFandirr/Baileys"><img src="https://img.shields.io/github/stars/BotzFandirr/Baileys?style=for-the-badge" alt="Stars"></a>
   <a href="https://www.npmjs.com/package/baileys-fandirr"><img src="https://img.shields.io/npm/v/baileys-fandirr?style=for-the-badge" alt="NPM"></a>
 </p>
 
@@ -30,6 +30,6 @@
 ## Instalasi
 
 ```bash
-npm install baileys-erlangga
+npm install baileys-fandirr
 
 ```
