@@ -1,7 +1,7 @@
-# Baileys-Erlangga - WhatsApp Bot Framework 2025 Spesial Edition
+# Baileys-Fandirr - WhatsApp Bot Framework 2025 Spesial Edition
 
 <p align="center">
-  <img src="https://files.catbox.moe/pfttxc.jpg" width="300" alt="Baileys Erlangga Logo" />
+  <img src="https://telegra.ph/file/73c10af04d7d5cf64204e.jpg" width="300" alt="Baileys Fandirr Logo" />
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
 
 ---
 
-**Baileys-Erlangga** adalah versi modifikasi dari [WhiskeySockets/Baileys](https://github.com/WhiskeySockets/Baileys), dirancang khusus untuk para developer bot WhatsApp di tahun 2025. Fokus utama versi ini adalah kestabilan pairing code, session auto-recovery, dan fitur tambahan eksklusif yang tidak tersedia di versi original.
+**Baileys-Fandirr** adalah versi modifikasi dari [WhiskeySockets/Baileys](https://github.com/WhiskeySockets/Baileys), dirancang khusus untuk para developer bot WhatsApp di tahun 2025. Fokus utama versi ini adalah kestabilan pairing code, session auto-recovery, dan fitur tambahan eksklusif yang tidak tersedia di versi original.
 
 ---
 
