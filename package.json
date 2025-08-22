@@ -1,5 +1,5 @@
 {
-  "name": "@erlangga/baileys",
+  "name": "@fandirr/baileys",
   "version": "6.7.4",
   "description": "WhatsApp API",
   "keywords": [
@@ -11,14 +11,14 @@
     "whatsapp-group",
     "automation",
     "multi-device",
-    "ErlanggaOfficial"
+    "FandirrOffc"
   ],
-  "homepage": "https://github.com/ErlanggaaXzzz/Baileys",
+  "homepage": "https://github.com/BotzFandirr/Baileys",
   "repository": {
-    "url": "git@github.com:ErlanggaaXzzz/Baileys.git"
+    "url": "git@github.com:BotzFandirr/Baileys.git"
   },
   "license": "MIT",
-  "author": "ErlanggaOfficial",
+  "author": "FandirrOffc",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
