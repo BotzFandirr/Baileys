@@ -1,7 +1,7 @@
 // Ahh
 import { proto } from '../../WAProto';
 
-declare namespace langgxyz {
+declare namespace fandirroffc {
     interface MediaUploadOptions {
         fileEncSha256?: Buffer;
         mediaType?: string;
@@ -112,48 +112,48 @@ declare namespace langgxyz {
     }
 }
 
-declare class langgxyz {
+declare class fandirroffc {
     constructor(
         utils: {
-            prepareWAMessageMedia: (media: any, options: langgxyz.WAMessageContentGenerationOptions) => Promise<any>;
-            generateWAMessageContent: (content: any, options: langgxyz.WAMessageContentGenerationOptions) => Promise<any>;
+            prepareWAMessageMedia: (media: any, options: fandirroffc.WAMessageContentGenerationOptions) => Promise<any>;
+            generateWAMessageContent: (content: any, options: fandirroffc.WAMessageContentGenerationOptions) => Promise<any>;
             generateWAMessageFromContent: (jid: string, content: any, options?: any) => Promise<any>;
             generateMessageID: () => string;
         },
-        waUploadToServer: langgxyz.WAMediaUploadFunction,
+        waUploadToServer: fandirroffc.WAMediaUploadFunction,
         relayMessageFn?: (jid: string, content: any, options?: any) => Promise<any>
     );
     
-    detectType(content: langgxyz.MessageContent): 'PAYMENT' | 'PRODUCT' | 'INTERACTIVE' | 'ALBUM' | 'EVENT' | null;
+    detectType(content: fandirroffc.MessageContent): 'PAYMENT' | 'PRODUCT' | 'INTERACTIVE' | 'ALBUM' | 'EVENT' | null;
 
     handlePayment(
-        content: { requestPaymentMessage: langgxyz.PaymentMessage },
+        content: { requestPaymentMessage: fandirroffc.PaymentMessage },
         quoted?: proto.IWebMessageInfo
     ): Promise<{ requestPaymentMessage: proto.Message.RequestPaymentMessage }>;
 
     handleProduct(
-        content: { productMessage: langgxyz.ProductMessage },
+        content: { productMessage: fandirroffc.ProductMessage },
         jid: string,
         quoted?: proto.IWebMessageInfo
     ): Promise<{ viewOnceMessage: proto.Message.ViewOnceMessage }>;
 
     handleInteractive(
-        content: { interactiveMessage: langgxyz.InteractiveMessage },
+        content: { interactiveMessage: fandirroffc.InteractiveMessage },
         jid: string,
         quoted?: proto.IWebMessageInfo
     ): Promise<{ viewOnceMessage: proto.Message.ViewOnceMessage }>;
 
     handleAlbum(
-        content: { albumMessage: langgxyz.AlbumItem[] },
+        content: { albumMessage: fandirroffc.AlbumItem[] },
         jid: string,
         quoted?: proto.IWebMessageInfo
     ): Promise<any>;
 
     handleEvent(
-        content: { eventMessage: langgxyz.EventMessage },
+        content: { eventMessage: fandirroffc.EventMessage },
         jid: string,
         quoted?: proto.IWebMessageInfo
     ): Promise<any>;
 }
 
-export = langgxyz;
+export = fandirroffc;
