@@ -31,9 +31,10 @@
 
 ```bash
 npm install @fandirr/baileys
+
 ```
 
-`` ts
+``` ts
 import makeWASocket, { DisconnectReason } from '@fandirr/baileys'
 import { Boom } from '@hapi/boom'
 
