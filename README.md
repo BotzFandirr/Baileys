@@ -33,6 +33,7 @@
 npm install @fandirr/baileys
 
 ```
+## Connecting
 
 ``` ts
 import makeWASocket, { DisconnectReason } from '@fandirr/baileys'
