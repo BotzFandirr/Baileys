@@ -67,3 +67,14 @@ async function connectToWhatsApp () {
 // run in main file
 connectToWhatsApp()
 ``` 
+
+## Thanks To All Developer
+
+| Nama                | WhatsApp                                                                                                          |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Fandirr      | [6283155619441](https://wa.me/6283155619441) |
+| Message Routes       | [message.route.js](https://github.com/salman0ansari/whatsapp-api-nodejs/blob/main/src/api/routes/message.route.js)   |
+| Group Routes         | [group.route.js](https://github.com/salman0ansari/whatsapp-api-nodejs/blob/main/src/api/routes/group.route.js)       |
+| Miscellaneous Routes | [misc.route.js](https://github.com/salman0ansari/whatsapp-api-nodejs/blob/main/src/api/routes/misc.route.js)         |
+
+See all routes here [src/api/routes](https://github.com/salman0ansari/whatsapp-api-nodejs/tree/main/src/api/routes)
